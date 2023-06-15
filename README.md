@@ -9,7 +9,7 @@ I happen to use [Graylog Open](https://www.graylog.org/products/source-available
 
 ### OS Info
   
-1. Ubuntu Server 22.04.2 LTS --> `wget https://releases.ubuntu.com/22.04.2/ubuntu-22.04.2-live-server-amd64.iso`
+1. Ubuntu Server 22.04.2 LTS or 22.10 --> `wget https://releases.ubuntu.com/22.04.2/ubuntu-22.04.2-live-server-amd64.iso`
 		 
      SHA256 --> `5e38b55d57d94ff029719342357325ed3bda38fa80054f9330dc789cd2d43931`
      
