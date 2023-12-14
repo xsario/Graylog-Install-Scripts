@@ -93,7 +93,8 @@ wget https://packages.graylog2.org/repo/packages/graylog-5.1-repository_latest.d
 sudo dpkg -i graylog-5.1-repository_latest.deb
 sudo apt update && sudo apt install graylog-server
 sudo systemctl enable graylog-server.service
-sudo rm graylog-5.1-repository_latest.debhttp_bind_address = 127.0.0.1:9000
+sudo rm graylog-5.1-repository_latest.deb
+
 
 #Graylog Password change 
 #pwgen -N 1 -s 96  --> copy output and changed on password_secret value on /etc/graylog/server/server.conf
@@ -102,7 +103,7 @@ sudo rm graylog-5.1-repository_latest.debhttp_bind_address = 127.0.0.1:9000
 #anc changed these 
 #root_timezone = Europe/Istanbul
 #http_bind_address = IP-Addr:9000
-
+#http_bind_address = 127.0.0.1:9000
 
 
 
